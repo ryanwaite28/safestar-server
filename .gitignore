@@ -1,0 +1,10 @@
+# ignore
+node_modules/
+build/
+dist/
+.env
+./*.png
+./*.jpg
+./*.jpeg
+./*.gif
+database.sqlite

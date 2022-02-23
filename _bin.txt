@@ -1,0 +1,26 @@
+export class NewModel extends Model {}
+NewModel.init({
+  id:                   { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
+
+}, {
+  ...common_model_options,
+  tableName: 'safestar_',
+  modelName: '',
+});
+
+
+:([\s]+)\{(.*)(STRING|DATE|TEXT)(.*)\},?       ->   : string,
+:([\s]+)\{(.*)(INTEGER|FLOAT|DOUBLE)(.*)\},?   ->   : number,
+:([\s]+)\{(.*)(BOOLEAN)(.*)\},?                ->   : boolean,
+
+
+
+python new_controller.py pulse guard handler repo router service
+('Artifact', 'pulse')
+
+
+
+
+export interface I extends ICommonModel {
+  
+}
