@@ -1,8 +1,23 @@
-**SafeStar**
+# **SafeStar**
 
 App for stopping/reporting domestic violence, kidnapping. Community support/check-in app.
 
+### Images
+Logo
+![SafeStar Logo](readme-img/safe-star-logo-500.png "SafeStar Logo")
+<br/>
+<br/>
+Website
+![SafeStar Web](readme-img/safestar-welcome-page.png "SafeStar Logo")
+<br/>
+<br/>
 
+Mobile App
+![SafeStar Mobile Landing](readme-img/safestar-mobile-landing.PNG "SafeStar Logo")
+![SafeStar Mobile User](readme-img/safestar-mobile-user.PNG "SafeStar Logo")
+
+
+## Info
 
 The main features of the app:
 
@@ -11,7 +26,6 @@ The main features of the app:
 * Checkpoint: This is simple ping to another user to check in on them. That user can respond (pong) to let the user know they are okay.
 * Coversation: GroupChat equivalent
 * Watch: Similar to a conversation with the added feature of assigning a location to it.
-
 
 This repository is the backend services where the main application logic is. App is deployed on and using Heroku.
 
@@ -26,17 +40,13 @@ The 3rd-party services used:
 
 You can use your own credentials. If you don't have your own, you can use the DEV server where it has all the needed env variables set: [https://rmw-safestar-server-dev.herokuapp.com/]()
 
-
 The Front End (Angular) - [https://github.com/ryanwaite28/safestar-client]()
 
 The Mobile App (Expo React Native) - [https://github.com/ryanwaite28/safestar-mobile]()
 
-
 I want this app to be developed and maintained by anyone and everyone interested, essentially a community effort.
 
-
-The Enviroment Variables Needed (these go into a .env file in the project root):
-
+The Enviroment Variables Needed (all needs a value; none should be blank. these go into a .env file in the project root):
 
 APP_NAME=SafeStar
 
