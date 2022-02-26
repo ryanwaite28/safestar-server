@@ -1096,14 +1096,8 @@ export const dev_origins = [
 
 export const prod_origins = [
   // prod origins
-  'http://rmw-modern-client.herokuapp.com',
-  'https://rmw-modern-client.herokuapp.com',
-  
-  'http://modern-apps.us',
-  'https://modern-apps.us',
-  
-  'http://rmw-deliverme-client.herokuapp.com',
-  'https://rmw-deliverme-client.herokuapp.com',
+  'http://rmw-safestar-client.herokuapp.com',
+  'https://rmw-safestar-client.herokuapp.com',
 ];
 
 export const whitelist_domains = isProd
